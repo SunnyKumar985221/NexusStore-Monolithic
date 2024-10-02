@@ -1,0 +1,31 @@
+/* Main container and Profile page */
+.Maincontainer {
+  display: flex;
+  height: 70vh;
+  background-color: white;
+  border-top: 3px solid black;
+}
+
+.Maincontainer .sidebar {
+  flex: 1;
+  overflow-y: auto;
+  padding: 10px;
+}
+.Maincontainer .sidebar::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+}
+.Maincontainer .sidebar::-webkit-scrollbar {
+  width: 5px;
+}
+
+.Maincontainer .pagearea {
+  flex: 4;
+  overflow-x: auto;
+  padding: 10px;
+}
+.Maincontainer .pagearea::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+}
+.Maincontainer .pagearea::-webkit-scrollbar {
+  width: 5px;
+}

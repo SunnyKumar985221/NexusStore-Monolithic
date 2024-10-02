@@ -1,0 +1,214 @@
+@import url("https://fonts.googleapis.com/css2?family=Afacad:wght@500&family=Work+Sans:wght@500&display=swap");
+.SliderMain-Container {
+  width: 100%;
+  height: 450px;
+  position: relative;
+  overflow: hidden;
+}
+.SliderMain-Container .wrapper {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  transition: transform 1s ease;
+}
+.SliderMain-Container .wrapper .sliderItem {
+  min-width: 100%;
+  height: 100%;
+  position: relative;
+}
+.SliderMain-Container .wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.SliderMain-Container > button {
+  position: absolute;
+  top: 40%;
+  padding: 15px;
+  border: none;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 20px;
+  background: #14131375;
+  border-radius: 50%;
+  transition: transform 0.05s ease-in;
+}
+.SliderMain-Container button:hover {
+  background: #1f1e1ebe;
+  transform: rgba(34, 31, 31, 0.349);
+  cursor: pointer;
+}
+
+.right {
+  right: 0;
+}
+
+.Slider1Text {
+  position: absolute;
+  z-index: 5;
+  color: #ffffff;
+  width: 50%;
+  left: 10%;
+  bottom: 30%;
+  font-size: 40px;
+  font-family: "Afacad", sans-serif;
+  font-family: "Work Sans", sans-serif;
+  line-height: 40px;
+  text-shadow: 3px 0px 11px rgba(0, 0, 0, 0.74);
+}
+.Slider2Text {
+  position: absolute;
+  z-index: 5;
+  left: 10%;
+  font-size: 40px;
+  font-family: "Afacad", sans-serif;
+  font-family: "Work Sans", sans-serif;
+  line-height: 40px;
+  text-shadow: 3px 0px 11px rgba(0, 0, 0, 0.74);
+  color: black;
+  top: 10%;
+  width: 40%;
+}
+.Slider3Text {
+  position: absolute;
+  z-index: 5;
+  left: 10%;
+  font-size: 40px;
+  font-family: "Afacad", sans-serif;
+  font-family: "Work Sans", sans-serif;
+  line-height: 40px;
+  text-shadow: 3px 0px 11px rgba(0, 0, 0, 0.74);
+  width: 80%;
+  text-align: center;
+  top: 50%;
+  color: white;
+}
+.Slider4Text {
+  position: absolute;
+  z-index: 5;
+  font-size: 40px;
+  font-family: "Afacad", sans-serif;
+  font-family: "Work Sans", sans-serif;
+  line-height: 40px;
+  text-shadow: 3px 0px 11px rgba(0, 0, 0, 0.74);
+  width: 80%;
+  text-align: center;
+  color: white;
+  bottom: 10%;
+  left: 5%;
+}
+.Slider5Text {
+  position: absolute;
+  z-index: 5;
+  font-size: 40px;
+  font-family: "Afacad", sans-serif;
+  font-family: "Work Sans", sans-serif;
+  line-height: 40px;
+  text-shadow: 3px 0px 11px rgba(0, 0, 0, 0.74);
+  width: 40%;
+  text-align: center;
+  color: #eefff6;
+  bottom: 10%;
+  right: 1%;
+}
+
+.Slider1Btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  position: absolute;
+  z-index: 5;
+  color: white;
+  left: 10%;
+  bottom: 15%;
+  font-size: 18px;
+  font-family: "Poppins";
+  padding: 10px;
+  background: #352b6d;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.Slider2Btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  position: absolute;
+  z-index: 5;
+  color: white;
+  left: 10%;
+  top: 40%;
+  font-size: 18px;
+  font-family: "Poppins";
+  padding: 10px;
+  background: #352b6d;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.Slider3Btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  width: 200px;
+  position: absolute;
+  z-index: 5;
+  color: white;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 70%;
+  font-size: 18px;
+  font-family: "Poppins";
+  padding: 10px;
+  background: #352b6d;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.secondSection {
+  background-color: rgb(0, 0, 0);
+  width: 100%;
+  height: 80vh;
+  position: relative;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.secondSection img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: bottom;
+}
+.secondSection h3 {
+  position: absolute;
+  right: 2%;
+  margin: auto;
+  top: 10%;
+  color: white;
+  font-size: 30px;
+  font-weight: 550;
+  width: 30%;
+}
+.secondSection a {
+  position: absolute;
+  right: 2%;
+  top: 20%;
+  color: white;
+  font-size: 15px;
+  width: 30%;
+  text-decoration: none;
+}
+.secondSection a div {
+  background-color: #5643b3;
+}
+.secondSection a span:hover {
+  text-decoration: none;
+  transform: scale(1.05);
+}

@@ -1,4 +1,4 @@
 node_modules/
-frontend/*
-!frontend/build
+/frontend/build/
 .env
+*.logs

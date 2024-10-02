@@ -1,0 +1,95 @@
+.login {
+  background-color: #f0f2f5;
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 200px;
+  padding: 10%;
+}
+
+.login .loginleft {
+  flex: 1;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.login .loginleft .logoname {
+  color: #5643b3;
+  font-size: 50px;
+  font-weight: 500;
+  padding-left: 10%;
+}
+.login .loginleft .tagline {
+  font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+  font-size: 26px;
+  padding-left: 10%;
+  font-weight: normal;
+  line-height: 32px;
+}
+
+.login .loginright {
+  flex: 1;
+  align-items: center;
+  background-color: #fff;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  padding: 2% 1%;
+  color: white;
+}
+
+.login .loginright .inputlogin,
+.login .loginright .inputpassword {
+  background: #ffffff;
+  color: #1d2129;
+  font-family: Helvetica, Arial, sans-serif;
+  line-height: 16px;
+  padding: 0 16px;
+  width: 380px;
+  height: 45px;
+  border-radius: 7px;
+  border: 1px solid #a59d9d;
+}
+
+.login .loginright .inputlogin::placeholder,
+.login .loginright .inputpassword::placeholder {
+  font-size: 14px;
+}
+
+.login .loginright .forgetpassword {
+  color: blue;
+  cursor: pointer;
+}
+
+.login .loginright .loginbutton {
+  background-color: #1877f2;
+  border: none;
+  border-radius: 6px;
+  font-size: 20px;
+  line-height: 48px;
+  padding: 0 16px;
+  width: 412px;
+  text-transform: capitalize;
+}
+
+.login .loginright .register {
+  background-color: #42b72a;
+  border: none;
+  border-radius: 6px;
+  font-size: 15px;
+  line-height: 48px;
+  padding: 0 16px;
+  width: 300px;
+  text-transform: capitalize;
+}
+

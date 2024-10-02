@@ -1,0 +1,127 @@
+.logo {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  padding: 5px 10px;
+  margin-left: 10%;
+}
+.seller-button {
+  padding: 10px;
+  background: #352b6d;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.seller-button:hover {
+  transform: scale(1.05);
+}
+.seller-button a {
+  text-decoration: none;
+}
+
+.offer-header {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  width: 220px;
+  height: 100%;
+}
+.offer-header img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.offer-header:hover > div {
+  display: flex;
+  animation: downwardAnimate 0.04s ease 1;
+}
+@keyframes downwardAnimate {
+  from {
+    height: 0;
+  }
+  to {
+    height: 100%;
+  }
+}
+.offer-header > div {
+  display: none;
+  background: #f98811;
+  position: absolute;
+  justify-content: center;
+  flex-direction: column;
+  top: 40px;
+  z-index: 4;
+  padding: 10px 0px;
+  width: 80%;
+  color: white;
+  font-size: 16px;
+  font-family: cursive;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  border-radius: 0px 0px 12px 12px;
+}
+.offer-header > div > span {
+  padding: 0px 10px;
+  cursor: pointer;
+  transition: all 0.2s;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.offer-header > div > span:hover {
+  background: #5643b3;
+}
+
+.dropdownSubMenu .menulist:hover {
+  background: #5643b3;
+  color: white;
+  cursor: pointer;
+}
+
+.dropdownSubMenu {
+  display: none;
+}
+
+.dropdownMenu:hover .dropdownSubMenu {
+  display: block;
+}
+
+.scrollbeauty::-webkit-scrollbar {
+  width: 3px;
+}
+.scrollbeauty::-webkit-scrollbar-thumb {
+  background-color: #5643b3;
+}
+
+.scrollbeauty::-webkit-scrollbar-track {
+  background-color: white;
+}
+.promoSlider-Container {
+  background: linear-gradient(135deg, #000000 25%, transparent 25%) -10px 0,
+    linear-gradient(225deg, #000000 25%, transparent 25%) -10px 0,
+    linear-gradient(315deg, #000000 25%, transparent 25%),
+    linear-gradient(45deg, #000000 25%, transparent 25%);
+  background-size: 20px 20px;
+  background-color: rgba(23, 95, 193, 0.34);
+  background-position: 0 0;
+  width: 100%;
+  height: 30px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 550;
+  font-family: cursive;
+  animation: promoslider 50s linear infinite;
+}
+
+@keyframes promoslider {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 100% 0;
+  }
+}
